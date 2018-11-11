@@ -1,0 +1,28 @@
+页面上存在着不需要发生改变的部分时候-->frameset布局
+
+frameset,frame
+
+
+内嵌框架：类比<frame src="网页的路径"/>
+<iframe src="网页的路径"></iframe>
+
+优势：
+1、使用iframe的话，就不用frameset来布局了，
+哪个地方需要一个窗口，一个iframe就搞定了。
+
+2、可以精确控制iframe的大小: width height
+
+3、代码的复用：
+
+
+任务：
+1、将头部信息独立成网页head.html
+   将页脚信息独立成网页foot.html
+2、新建一个注册页面reg.html, 
+   利用iframe复用head.html和foot.html
+
+
+
+
+
+
